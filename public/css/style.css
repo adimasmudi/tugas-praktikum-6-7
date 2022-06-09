@@ -1,0 +1,46 @@
+body{
+    min-height:100vh; margin:0; position:relative;
+}
+body::after{
+    content: '';
+  display: block;
+  height:350px
+}
+.bg-brand{
+    background-color: #235284;
+}
+
+.bg-second-brand{
+    background-color: #2d8ab4;
+}
+
+.page-active{
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.text-brand{
+    color : #235284;
+}
+
+.btn-circle{
+    border-radius: 50%;
+}
+
+.image-footer{
+    height:70px;
+    width:70px;
+}
+
+.image-profil{
+    height:300px;
+    width:270px;
+}
+
+footer{
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height:350px
+}
+
